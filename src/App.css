@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  min-height: 100vh;
+}
+
+.App {
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: rgb(81, 19, 74);
+  text-align: center;
+  margin-top: auto;
+  padding: 8px;
+  color: aliceblue;
+  margin-top: 370px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+#nav {
+  margin-bottom: 0 !important;
+}
+
+#header {
+  background-image: url(/images/banner-with-dark-low-poly-design_1048-13228.jpg);
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
